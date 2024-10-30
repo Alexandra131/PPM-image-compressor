@@ -1,0 +1,12 @@
+Pentru primul task am citit tipul, latima si lungimea unei matirce, nr maxim pe care il poate avea o culoare, mai 
+apoi am construit matricea pe baza careia am construit arborele, pentru a construii arborele a trebuit sa calculez
+meanul-ul cu sumele pentru informatia pentru rosu, albastru si verde, in cazul in care meanul era mai mic decat 
+factorul sau egal aveam frunza, si puneam tipul 1 cu informatia potrivita, iar in cazul in care nu aveam meanul mai
+mic sau egal aveam nod intern si parcurgeam arborele, punand informatia 0 pe nodul respectiv.
+am calculat nivelul cel mai apropiat de radacina, acesta avand si cel mai mare size, si l.am returna, 
+daca nivelul curent era mai mic decat minimul se inversau iar dimensiunea lua size-ul dimensiunii curente, la final
+returnand-o, am calculat nr de frunze din arbore si nr niveluri printand informatiile
+la al doilea task am parcurs arborele, cu ajutorului unei cozi, daca aveam tipul 0 printam 0 in format binar, 
+daca aveam tipul 1 era frunza si trebuia sa printam informatiile, de fiecrae data extrageam elemente din coada
+pentru care afla informatii, faceam acest lucru pana cand coada devenea vida
+ 50 puncte fara readme si coding style
